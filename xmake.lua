@@ -1,0 +1,7 @@
+target("iffdigest")
+set_version("0.1.0")
+set_kind("static")
+add_files("src/*.cc")
+add_headerfiles("include/iffdigest.h")
+add_includedirs("include", {public = true})
+target_end()
