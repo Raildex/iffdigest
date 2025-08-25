@@ -1,3 +1,5 @@
+set_project("iffdigest")
+
 target("iffdigest")
 set_version("0.1.0")
 set_kind("static")
